@@ -1,5 +1,5 @@
+import Contador from "./Letreiro";
 import { Link } from "react-router-dom";
-
 function Atividade02() {
     return (
       <>
