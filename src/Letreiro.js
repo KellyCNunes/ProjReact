@@ -11,9 +11,9 @@ function Letreiro() {
       setIndex((prev) => (prev + 1) % texto.length);
 
       if (index === texto.length - 1) {
-        setDisplayText(''); // Reinicia o texto quando termina
+        setDisplayText(''); 
       }
-    }, 200); // Ajuste o intervalo para simular a digitação
+    }, 200); 
 
     return () => clearInterval(timer);
   }, [index]);

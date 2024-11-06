@@ -1,4 +1,4 @@
-import Relogio from "./Relógio";
+import Relogio from "./Relogio";
 import Letreiro from "./Letreiro";
 import { Link } from "react-router-dom";
 
