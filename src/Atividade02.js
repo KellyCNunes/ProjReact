@@ -4,7 +4,7 @@ function Atividade02() {
     return (
       <>
       <h2> Atividade 02</h2>
-
+      <Contador/>
 
       <Link to ="/"> Voltar</Link>
       </>
