@@ -1,4 +1,4 @@
-import Contador from "./Letreiro";
+import Contador from "./Contador";
 import { Link } from "react-router-dom";
 function Atividade02() {
     return (
