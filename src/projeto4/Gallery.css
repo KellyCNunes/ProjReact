@@ -1,0 +1,44 @@
+.gallery-container {
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .gallery-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Espaço entre os perfis */
+    flex-wrap: wrap; /* Permite quebra de linha */
+  }
+  
+  @media (max-width: 768px) {
+    .gallery {
+      flex-direction: column; /* Ajusta para coluna em telas menores */
+      gap: 15px;
+    }
+  }
+  
+  .imagem-com-texto {
+    display: flex;
+    align-items: center; /* Alinha a imagem e o texto verticalmente */
+    margin-bottom: 20px;
+  }
+  
+  .imagem {
+    width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    margin-right: 15px; /* Espaço entre a imagem e o texto */
+  }
+  
+  .descricao {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  

@@ -1,0 +1,13 @@
+.profile-image {
+    border-radius: 50%; /* Torna a imagem circular */
+    width: 120px; /* Largura fixa */
+    height: 120px; /* Altura fixa */
+    object-fit: cover; /* Ajusta o conteúdo à área definida */
+    border: 2px solid #4caf50; /* Borda verde */
+    transition: transform 0.3s; /* Adiciona animação ao hover */
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.1); /* Ampliação ao passar o mouse */
+  }
+  

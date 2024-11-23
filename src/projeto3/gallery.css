@@ -1,0 +1,26 @@
+/* Gallery.css */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #e5e7eb; /* Fundo suave */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 1200px; /* Limita a largura da galeria */
+    margin: auto;
+  }
+  
+  .gallery h1 {
+    font-size: 2rem;
+    color: #374151; /* Título da galeria */
+    margin-bottom: 20px;
+  }
+  
+  .profiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+  
